@@ -27,7 +27,16 @@ public  class SortingNumbers {
             String [] wordsArray = words.split(","); // splitting array
 
             System.out.println(wordsArray[0]);
+            int temp = wordsArray;
+            for (int i=0; i<wordsArray.length -1; i++){
+                if (wordsArray[i] > wordsArray[i+1]){
+                    temp = wordsArray[i+1];
+                    wordsArray[i + 1] = wordsArray[i];
+                    wordsArray[i]= temp
+                }
+            }
         }
+
         /*for(int i = 0; i < input.length -1; i++)
         {
             int least = i;
