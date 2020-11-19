@@ -27,13 +27,13 @@ public  class SortingNumbers {
             String [] wordsArray = words.split(","); // splitting array
 
             System.out.println(wordsArray[0]);
-            int temp = wordsArray;
+           /* int temp = wordsArray;
             for (int i=0; i<wordsArray.length -1; i++){
-                if (wordsArray[i] > wordsArray[i+1]){
+                if (wordsArray[i] > wordsArray[i+1]){               // does not work
                     temp = wordsArray[i+1];
                     wordsArray[i + 1] = wordsArray[i];
                     wordsArray[i]= temp
-                }
+                }*/
             }
         }
 
